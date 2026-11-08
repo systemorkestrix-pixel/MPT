@@ -1,0 +1,28 @@
+# Portable runtime (Python + FFmpeg + Git) - recreated by the installer/updater
+/lib/
+
+# Portable distribution archive
+*.7z
+*.zip
+
+# Generated output: videos, audio, task artifacts, caches
+/MoneyPrinterTurbo/storage/
+
+# Local configuration that contains private API keys
+/MoneyPrinterTurbo/config.toml
+/MoneyPrinterTurbo/config.toml.bak
+/MoneyPrinterTurbo/config.toml.backup-*
+/MoneyPrinterTurbo/.env
+
+# Python caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS / editor noise
+Thumbs.db
+desktop.ini
+.DS_Store
+.idea/
+.vscode/
